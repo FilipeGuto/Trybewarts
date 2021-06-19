@@ -21,12 +21,3 @@ function hideApear() {
   }
 }
 document.getElementById('agreement').addEventListener('click', hideApear);
-
-function newForm() {
-  const name = document.getElementById('input-name').value;
-  localStorage.setItem(name);
-  const lastname = document.getElementById('input-lastname').value;
-  localStorage.setItem(lastname).value = 'Aqui';
-}
-
-document.getElementById('submit-btn').addEventListener('click', newForm);
